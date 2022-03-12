@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Tuppence';
+    src:    url('./parcs-landing/assets/fonts/tuppence-variable.woff2') format('woff2-variations'),
+            url('./parcs-landing/assets/fonts/tuppence-variable.woff') format('woff-variations'),
+            url('./parcs-landing/assets/fonts/Tuppence-Light.otf') format('otf');
+    font-weight: 350 700;
+    }
+
+@font-face {
+    font-family: 'Tuppence Italic';
+    src:    url('./parcs-landing/assets/fonts/tuppence-italic-variable.woff2') format('woff2-variations'),
+            url('./parcs-landing/assets/fonts/tuppence-italic-variable.woff') format('woff-variations'),
+            url('./parcs-landing/assets/fonts/Tuppence-Light-Italic.otf') format('otf');
+    font-weight: 350 700;
+    }
+
+@font-face {
+    font-family: 'ABC Whyte';
+    src:    url('./parcs-landing/assets/fonts/ABCWhyte-Medium.woff') format('woff'),
+            url('./parcs-landing/assets/fonts/ABCWhyte-Medium.woff2') format('woff2'),
+            url('./parcs-landing/assets/fonts/ABCWhyte-Medium.otf') format('otf');
+    }
+
+:root {
+    --blk: #000000;
+    --wht: #ffffff;
+    --chr: #313131;
+    --gry: #888888;
+    --red: #fe0000;
+    // --parcs_green: #BBB76D;
+    --parcs_green: #afab5c;
+    --parcs_lightgreen: #EBE89E;
+    --parcs_grey: #F6F6F6;
+    --parcs_midgrey: #E6E6E6;
+    --parcs_darkgrey: #2a2a2a;
+    --parcs_charcoal: #121212;
+}
+
+// VARIABLES
+    $tuppence: 'Tuppence', Times, 'Times New Roman', Georgia, serif;
+    $tuppence-ital: 'Tuppence Italic', Times, 'Times New Roman', Georgia, serif;
+    $abcwhyte: 'ABC Whyte', Arial, Helvetica, sans-serif;

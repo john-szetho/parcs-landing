@@ -1,0 +1,24 @@
+@import "sass/reset";
+@import "sass/base";
+
+html {
+  font-size: 100%;
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $tuppence;
+  line-height: 124%;
+  text-align: center;
+  letter-spacing: 0.0125em;
+  background-color: var(--parcs_green);
+  color: var(--parcs_charcoal);
+
+  font-variation-settings: "wght" 350, "ital" 0;
+  transition: font-variation-settings 0.3s ease-in-out;
+}
+
+@import "sass/main";
+@import "sass/interaction";
+@import "sass/template";
