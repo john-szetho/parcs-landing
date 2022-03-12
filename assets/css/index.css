@@ -211,25 +211,25 @@ button, input, optgroup, select, textarea {
 
 @font-face {
   font-family: 'Tuppence';
-  src: url("../assets/fonts/tuppence-variable.woff2") format("woff2-variations");
-  src: url("../assets/fonts/tuppence-variable.woff") format("woff-variations");
-  src: url("../assets/fonts/Tuppence-Light.otf") format("otf");
+  src: url("/assets/fonts/Tuppence-Light.otf") format("otf");
+  src: url("/assets/fonts/tuppence-variable.woff2") format("woff2-variations");
+  src: url("/assets/fonts/tuppence-variable.woff") format("woff-variations");
   font-weight: 350 700;
 }
 
 @font-face {
   font-family: 'Tuppence Italic';
-  src: url("../assets/fonts/tuppence-italic-variable.woff2") format("woff2-variations");
-  src: url("../assets/fonts/tuppence-italic-variable.woff") format("woff-variations");
-  src: url("../assets/fonts/Tuppence-Light-Italic.otf") format("otf");
+  src: url("/assets/fonts/Tuppence-Light-Italic.otf") format("otf");
+  src: url("/assets/fonts/tuppence-italic-variable.woff2") format("woff2-variations");
+  src: url("/assets/fonts/tuppence-italic-variable.woff") format("woff-variations");
   font-weight: 350 700;
 }
 
 @font-face {
   font-family: 'ABC Whyte';
-  src: url("../assets/fonts/ABCWhyte-Medium.woff") format("woff");
-  src: url("../assets/fonts/ABCWhyte-Medium.woff2") format("woff2");
-  src: url("../assets/fonts/ABCWhyte-Medium.otf") format("otf");
+  src: url("/assets/fonts/ABCWhyte-Medium.otf") format("otf");
+  src: url("/assets/fonts/ABCWhyte-Medium.woff2") format("woff2");
+  src: url("/assets/fonts/ABCWhyte-Medium.woff") format("woff");
 }
 
 :root {
@@ -253,7 +253,7 @@ html {
 }
 
 body {
-  font-family: "Tuppence", Times, "Times New Roman", Georgia, serif;
+  font-family: "Tuppence", Georgia, Times, "Times New Roman", serif;
   line-height: 124%;
   text-align: center;
   letter-spacing: 0.0125em;
@@ -377,7 +377,7 @@ main#home .landing .contact-container .contact-details ul li p {
 }
 
 main#home .landing .contact-container .contact-details ul li a {
-  font-family: "Tuppence", Times, "Times New Roman", Georgia, serif;
+  font-family: "Tuppence", Georgia, Times, "Times New Roman", serif;
   letter-spacing: 0.0125em;
   padding: 0 3px 0 4.5px;
   -ms-flex-item-align: baseline;
@@ -429,28 +429,28 @@ main#home .landing .newsletter-container .mc-field-group input {
 }
 
 main#home .landing .newsletter-container .mc-field-group ::-webkit-input-placeholder {
-  font-family: "Tuppence", Times, "Times New Roman", Georgia, serif;
+  font-family: "Tuppence", Georgia, Times, "Times New Roman", serif;
   font-size: .8rem;
   color: var(--parcs_charcoal);
   opacity: .25;
 }
 
 main#home .landing .newsletter-container .mc-field-group :-ms-input-placeholder {
-  font-family: "Tuppence", Times, "Times New Roman", Georgia, serif;
+  font-family: "Tuppence", Georgia, Times, "Times New Roman", serif;
   font-size: .8rem;
   color: var(--parcs_charcoal);
   opacity: .25;
 }
 
 main#home .landing .newsletter-container .mc-field-group ::-ms-input-placeholder {
-  font-family: "Tuppence", Times, "Times New Roman", Georgia, serif;
+  font-family: "Tuppence", Georgia, Times, "Times New Roman", serif;
   font-size: .8rem;
   color: var(--parcs_charcoal);
   opacity: .25;
 }
 
 main#home .landing .newsletter-container .mc-field-group ::placeholder {
-  font-family: "Tuppence", Times, "Times New Roman", Georgia, serif;
+  font-family: "Tuppence", Georgia, Times, "Times New Roman", serif;
   font-size: .8rem;
   color: var(--parcs_charcoal);
   opacity: .25;
