@@ -211,19 +211,25 @@ button, input, optgroup, select, textarea {
 
 @font-face {
   font-family: 'Tuppence';
-  src: url(".../assets/fonts/tuppence-variable.woff2") format("woff2-variations"), url("../assets/fonts/tuppence-variable.woff") format("woff-variations"), url("../assets/fonts/Tuppence-Light.otf") format("otf");
+  src: url("../assets/fonts/tuppence-variable.woff2") format("woff2-variations");
+  src: url("../assets/fonts/tuppence-variable.woff") format("woff-variations");
+  src: url("../assets/fonts/Tuppence-Light.otf") format("otf");
   font-weight: 350 700;
 }
 
 @font-face {
   font-family: 'Tuppence Italic';
-  src: url("../assets/fonts/tuppence-italic-variable.woff2") format("woff2-variations"), url("../assets/fonts/tuppence-italic-variable.woff") format("woff-variations"), url("../assets/fonts/Tuppence-Light-Italic.otf") format("otf");
+  src: url("../assets/fonts/tuppence-italic-variable.woff2") format("woff2-variations");
+  src: url("../assets/fonts/tuppence-italic-variable.woff") format("woff-variations");
+  src: url("../assets/fonts/Tuppence-Light-Italic.otf") format("otf");
   font-weight: 350 700;
 }
 
 @font-face {
   font-family: 'ABC Whyte';
-  src: url("../assets/fonts/ABCWhyte-Medium.woff") format("woff"), url("../assets/fonts/ABCWhyte-Medium.woff2") format("woff2"), url("../assets/fonts/ABCWhyte-Medium.otf") format("otf");
+  src: url("../assets/fonts/ABCWhyte-Medium.woff") format("woff");
+  src: url("../assets/fonts/ABCWhyte-Medium.woff2") format("woff2");
+  src: url("../assets/fonts/ABCWhyte-Medium.otf") format("otf");
 }
 
 :root {
