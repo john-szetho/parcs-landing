@@ -385,6 +385,14 @@ main#home .landing .contact-container .contact-details ul li a {
   line-height: 100%;
 }
 
+main#home .landing .contact-container .contact-details ul li p,
+main#home .landing .contact-container .contact-details ul li a {
+  font-size: 1.25em;
+  line-height: 124%;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+}
+
 main#home .landing .contact-container .contact-details .contact-details h2 {
   margin-top: 60px;
 }
@@ -418,6 +426,7 @@ main#home .landing .newsletter-container .clear input:hover {
 
 main#home .landing .newsletter-container p {
   font-size: .8rem;
+  line-height: 132%;
 }
 
 main#home .landing .newsletter-container .mc-field-group {
